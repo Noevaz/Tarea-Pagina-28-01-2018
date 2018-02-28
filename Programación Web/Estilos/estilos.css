@@ -19,7 +19,7 @@
 	border-style: solid;
 }
 
-#Info {
+.Info {
 	float : left;
 	width : 300px;
 	height : 100px;
@@ -28,13 +28,7 @@
 	
 }
 
-#subtitulo {
-		height : 30px;
-		background-color : silver;
-}
-
-
-#Titulo {
+.titulo {
 	background-color : white;
 }
 
@@ -44,6 +38,15 @@
 	height : 365px;
 	background-color : black;
 }
+#imagen {
+	position : center;
+	max-width: 100%;
+}
+
+#subtitulo {
+		height : 30px;
+		background-color : silver;
+}
 
 P { 
 color : gray; 
@@ -51,17 +54,8 @@ font-family : verdana;
 font-weight : normal;
 text-align : left; 
 } 
-h1 { 
-font-size : 26pt; 
-font-family : verdana; 
-text-decoration : underline; 
-text-align : center; 
-} 
-h2 { 
-font-size : 15pt; 
-font-family : verdana; 
-text-align : left; 
-} 
+
+
 BODY{
 background-color : #CCCCFF;
 } 
