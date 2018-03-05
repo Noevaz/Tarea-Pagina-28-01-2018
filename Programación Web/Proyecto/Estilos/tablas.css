@@ -1,0 +1,39 @@
+table,td,th{
+    border: 1px solid black;
+    margin:auto;
+}
+
+th {
+  background:#0190f2;
+}
+
+td{
+
+	background: #f4f5f5;
+}
+
+body{
+
+	background: silver;
+
+}
+
+.titulos
+{
+
+	text-align: center;
+}
+
+input[type="button"]{
+
+	margin: 50px 580px 0px 580px;
+	background:rgba(0,117,217,.7);
+	width: 100px;
+}
+
+
+
+
+
+
+

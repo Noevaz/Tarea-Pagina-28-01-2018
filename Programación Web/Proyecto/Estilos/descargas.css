@@ -1,0 +1,38 @@
+.TITULO {
+	padding: 10px;
+	margin: 10px;
+	background-color: black;
+}
+
+.Titulo {
+	padding: 10px;
+	background-color: white;
+}
+
+
+.CONTENEDOR {
+    border: 5px solid black;
+    margin: auto;
+    text-align: center;
+    width: 1100px;
+	height: 800px;
+	background-color: #C3CDD8;
+	padding: 50px;
+}
+ .CUADRO1 {
+	text-align: center;
+	font: bold 20px "arial";
+	border: 5px solid black;
+	margin: 20px 10px 10px 10px;
+	background-color: white;
+	float: center;
+ }
+ 
+ .CuadrodeDescargas {
+		font: bold 20px "arial";
+		text-align: left;
+ }
+ 
+ Body {
+	background-color: #7B8C8C;
+ }

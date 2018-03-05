@@ -1,0 +1,89 @@
+ 
+body{ background: #FAF3DD }
+
+
+
+#info
+{
+	width: 400px;
+	background: #4478C6;
+	padding: 10px;
+}
+
+#bio
+{
+
+	width: 300px;
+	background: #FAF3DD;
+	margin:20px;
+	padding: 10px;
+	border: 10px solid #68B0AB;
+	float: right;
+}
+
+#bio1
+{
+	width: 300px;
+	background: #FAF3DD;
+	margin:20px;
+	padding: 10px;
+	border: 10px solid #58FA58;
+	float: right;
+}
+
+#foto1
+{
+
+	width: 300px;
+	border: 10px solid #68B0AB;
+
+}
+
+#foto2
+{
+
+	width: 250px;
+	border: 10px solid #68B0AB;
+
+}
+
+#social
+{
+	width: 200px;
+	background: #4478C6;
+	padding: 10px;
+	position: absolute;
+	left: 448px;
+	top: 250px;
+}
+
+#foto3
+{
+	width: 250px;
+	border: 10px solid #68B0AB;
+	margin: 40px;
+	float: left;
+	position: relative;
+	bottom: 75px;
+	left: 80px;
+
+}
+
+.color
+{
+
+	color: #FFFFFF;
+
+}
+.izquierda
+{
+
+	float: left;
+	margin: 40px 40px 150px
+}
+
+
+
+
+
+

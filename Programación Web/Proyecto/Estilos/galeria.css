@@ -1,0 +1,64 @@
+
+.TITULO {
+	padding: 10px;
+	margin: 10px;
+	background-color: black;
+}
+
+.Titulo {
+	padding: 10px;
+	background-color: white;
+}
+.slide {
+	width: 500px;
+	height: 220px;
+	border: 5px solid black;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.fondo {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	padding: 5px;
+	margin: 50px;
+}
+.image {
+	font: bold 12px "verdana";
+	border: 5px solid white;
+	font-family: arial;
+	padding: 10px;
+	margin: 10px;
+	background-color: black;
+	list-style: none;
+}
+
+.slide li img {
+	width: 500px;
+	height: 200px;
+}
+	
+
+.slide li {
+	list-style: none;
+	float: left;
+}
+
+.CONTENEDOR {
+	background-color: transparent;
+    border: 5px solid black;
+    margin: auto;
+    text-align: center;
+    width: 1100px;
+	height: 800px;
+	background-color: #C3CDD8;
+}
+	
+	
+BODY {
+	background-color: #7B8C8C;
+}

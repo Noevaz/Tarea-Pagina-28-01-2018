@@ -1,35 +1,21 @@
 
-.Parrafo1{
-	font-size : 30;
-	color : blue;
-	background-color : silver;
-	width : 700px; 
-	height : 40px;
-	border-style: solid;
-}
-.Parrafo2{
-	color : green;
-	background-color : silver;
-	border-style: solid;
-}
+BODY{
+background-color : #B9D8E7;
+} 
 
-.Parrafo3{
-	color : red;
-	background-color : silver;
-	border-style: solid;
-}
+P { 
+color : gray; 
+font-family : verdana;
+font-weight : normal;
+} 
 
-.Info {
-	float : left;
-	width : 300px;
-	height : 100px;
+.header {
 	background-color : silver;
+	height: 75px;
+	margin: 20px;
+	padding-bottom: 50px;
+	border-color: black;
 	border-style: solid;
-	
-}
-
-.titulo {
-	background-color : white;
 }
 
 #Imagen {
@@ -38,24 +24,89 @@
 	height : 365px;
 	background-color : black;
 }
+
+nav	{
+	text-align: center;
+	background-color:silver;
+	height : 50px;
+	margin: 20px;
+	padding: 10px;
+	border-color: black;
+	border-style: solid;
+	
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    margin-left: 250px;
+    color: black;
+    text-align: center;
+	float: left;
+
+}
+
+aside{
+	margin: 20px;
+	padding: 10px;
+	float: left;
+	height: 300px;
+	background-color:silver;
+	border-color: black;
+	border-style: solid;
+}
+
+aside ul{
+	list-style-type: none;
+}
+
+aside li a{
+	text-decoration: none;
+}
+
+#subtitulo {
+	color: black;
+	height : 30px;
+	background-color : silver;
+	font-style: italic;
+}
+
+.Parrafo1{
+	font-size : 30;
+	color : blue;
+	background-color : silver;
+	width : 700px; 
+	height : 40px;
+	border-style: solid;
+	text-align: left;
+}
+.Parrafo2{
+	color : green;
+	background-color : silver;
+	border-style: solid;
+	text-align: left;
+}
+
 #imagen {
 	position : center;
 	max-width: 100%;
 }
 
-#subtitulo {
-		height : 30px;
-		background-color : silver;
+.Parrafo3{
+	color : red;
+	background-color : silver;
+	border-style: solid;
+	text-align: left;
 }
 
-P { 
-color : gray; 
-font-family : verdana;
-font-weight : normal;
-text-align : left; 
-} 
+.footer {
+	float : left;
+	width : 300px;
+	height : 100px;
+	background-color : silver;
+	border-style: solid;
+	
+}
 
-
-BODY{
-background-color : #CCCCFF;
-} 

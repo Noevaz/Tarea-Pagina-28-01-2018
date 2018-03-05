@@ -1,0 +1,56 @@
+<HTML>
+<HEAD>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <meta name="description" content="Proyecto de Programación Web, UNIVERSIDAD DEL CARIBE">
+      <meta name="keywords" content="¨Proyecto parcial, Uso de html, Universidad del caribe">
+      <link rel="stylesheet" href="Estilos/inicio_sesión.css">
+
+</HEAD>
+<BODY>
+
+      <script language=JavaScript>
+
+      function inicio_sesion(){
+
+
+        if (document.form.password.value== 'CONTRASEÑA' && document.form.login.value=='USUARIO') {
+
+          document.form.submit();
+        }
+        else{
+
+          alert("Ingrese un usuario y Contraseña correcta.");
+
+        }
+
+
+      }
+
+
+      </script>
+
+      <div id="formulario">
+
+          <h3>Iniciar Sesión</h3>
+
+          <form name="form" action="Index.html">
+
+              <input  type="text" placeholder="Usuario" name="login"">
+              <input  type="password" placeholder="Contraseña" name="password"><br>
+              <input onclick=inicio_sesion() type=button value="login">
+
+          </form>
+
+          <div id="Olvidar">
+
+          <a href="#">Olvide mi contraseña</a>
+            
+          </div>
+
+      </div>
+
+       
+</body>
+</html>
+</BODY>
+</HTML> 

@@ -1,0 +1,61 @@
+body{
+
+	background: url( ../Imagenes/ciudad.jpg);
+	background-size: cover;
+
+}
+
+#formulario
+{
+
+	background: rgba(0,0,0,.5);
+	width: 450px;
+	color: #FFF;
+	padding:40px;
+	margin:100px auto;
+
+}
+
+#formulario input[type="text"],
+#formulario input[type="password"]{
+
+	
+	border: none;
+	color:#FFF;
+	font-size: 17px;
+	border-bottom: 4px solid #ff851b;
+	margin: 0 0 20px 0;
+	padding-top: 15px;
+	background: rgba(0,0,0,.3);
+	width: 450px
+
+}
+
+#formulario input[type="button"]{
+
+	color:#FFF;
+	background: #ff851b;
+	border: none;
+	padding-top: 15px;
+	font-size: 18px;
+	width:450px;	
+	
+}
+
+#Olvidar
+{
+
+	padding-top: 15px;
+	background: rgba(0,117,217,.7);
+	width: 450px;
+	text-align: center;
+
+}
+
+#Olvidar a{
+
+
+	color: #FFF;
+	text-decoration: none;
+	font-size: 18px;
+}

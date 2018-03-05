@@ -1,0 +1,48 @@
+<HTML>
+<HEAD>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <meta name="description" content="Proyecto de Programación Web, UNIVERSIDAD DEL CARIBE">
+      <meta name="keywords" content="¨Proyecto parcial, Uso de html, Universidad del caribe">
+      <link rel="stylesheet" href="Estilos/ubicación.css">
+
+      <script type="text/javascript">
+
+      function reloj() {
+
+      		var fecha = new Date();
+      		var hora = fecha.getHours();
+      		var min = fecha.getMinutes();
+      		var segs = fecha.getSeconds();
+      		var recarga =setTimeout('reloj()', 500);
+      		document.getElementById('print').innerHTML= hora + " : " + min + " : "+segs;
+      }
+      </script>
+
+
+</HEAD>
+<BODY onload ="reloj()">
+
+	  <div id="print"></div>
+
+
+      <div id="logotipo" class="clase">
+
+       <p><img src ="Imagenes/uni.jpg" height="100px" width="300px"></p>
+
+      </div>
+
+
+        <div id="Ubicacion">
+
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.7680474212225!2d-86.82610954989401!3d21.201371385835916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2c298cab405b%3A0xc7ce34485e9b3b8!2sUniversidad+del+Caribe!5e0!3m2!1ses-419!2smx!4v1518300783806" width="600" height="340" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        </div>
+
+
+        <input type="button" name="back" value="REGRESAR" onclick="location='Index.html'">
+
+       
+</body>
+</html>
+</BODY>
+</HTML> 

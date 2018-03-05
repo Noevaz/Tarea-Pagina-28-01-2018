@@ -1,0 +1,67 @@
+
+.Parrafo1{
+	font-size : 30;
+	color : blue;
+	background-color : silver;
+	width : 700px; 
+	height : 40px;
+	border-style: solid;
+}
+.Parrafo2{
+	color : green;
+	background-color : silver;
+	border-style: solid;
+}
+
+.Parrafo3{
+	color : red;
+	background-color : silver;
+	border-style: solid;
+}
+
+#Info {
+	float : left;
+	width : 300px;
+	height : 100px;
+	background-color : silver;
+	border-style: solid;
+	
+}
+
+#subtitulo {
+		height : 30px;
+		background-color : silver;
+}
+
+
+#Titulo {
+	background-color : white;
+}
+
+#Imagen {
+	margin : auto;
+	width : 370px;
+	height : 365px;
+	background-color : black;
+}
+
+P { 
+color : gray; 
+font-family : verdana;
+font-weight : normal;
+text-align : left; 
+} 
+h1 { 
+font-size : 26pt; 
+font-family : verdana; 
+text-decoration : underline; 
+text-align : center; 
+} 
+h2 { 
+font-size : 15pt; 
+font-family : verdana; 
+text-align : left; 
+} 
+BODY{
+background-color : #CCCCFF;
+} 

@@ -1,0 +1,31 @@
+
+
+
+.TITULO {
+	padding: 10px;
+	margin: 10px;
+	background-color: black;
+}
+
+.Titulo {
+	padding: 10px;
+	background-color: white;
+}
+	
+
+.padre {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 5px;
+  margin: 50px;
+}
+.seccion {
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+}
+
+BODY{
+background-color : #99F3F7;
+} 
